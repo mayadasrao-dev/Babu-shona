@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚨 MWAH BABU WIFE 😈🚨</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lilita+One&family=Bungee&display=swap');
+
+        body { 
+            background: linear-gradient(45deg, #ff69b4, #ffb6c1, #ff69b4, #ffdab9);
+            background-size: 400% 400%;
+            animation: gradientDance 8s ease infinite;
+            font-family: 'Lilita One', cursive;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+            color: #4a0033; /* Dark purplish-pink for contrast */
+        }
+
+        @keyframes gradientDance {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border: 6px dashed #ff1493; /* Deep Pink */
+            box-shadow: 15px 15px 0px #8b008b; /* Dark Magenta Shadow */
+            border-radius: 35px;
+            padding: 20px;
+            width: 90%;
+            max-width: 380px;
+            text-align: center;
+            position: relative;
+            z-index: 100;
+            backdrop-filter: blur(5px); /* Aesthetic blur effect */
+        }
+
+        h1 { 
+            font-family: 'Bungee', cursive; /* More aggressive font */
+            font-size: 1.6rem;
+            color: #e91e63; /* Hot Pink */
+            -webkit-text-stroke: 1px #4a0033; /* Dark outline */
+            line-height: 1.1;
+            margin-bottom: 10px;
+        }
+        
+        p { 
+            font-family: 'Fredoka One', cursive;
+            font-size: 1.2rem; 
+            color: #8b008b; /* Dark Magenta */
+            margin: 8px 0;
+        }
+
+        #timer {
+            font-family: 'Bungee', cursive;
+            font-size: 4rem;
+            color: #ff0000; /* Bright Red */
+            text-shadow: 4px 4px 0px #ffe0f0; /* Light pink shadow */
+            margin: 10px 0;
+            animation: pulseBeat 0.4s infinite;
+        }
+
+        @keyframes pulseBeat {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.15) rotate(-3deg); }
+        }
+
+        .btn {
+            font-family: 'Lilita One', cursive;
+            font-size: 1.1rem;
+            padding: 14px;
+            margin: 10px 0;
+            width: 100%;
+            border: 3px solid #4a0033; /* Dark outline */
+            border-radius: 40px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            display: block;
+            box-shadow: 5px 5px 0px #4a0033; /* 3D effect */
+        }
+
+        .btn-yes { background: #ff69b4; color: white; } /* Hot Pink */
+        .btn-no { background: #ffb6c1; color: #4a0033; } /* Light Pink */
+        
+        .btn:hover { 
+            transform: translate(-3px, -3px); 
+            box-shadow: 8px 8px 0px #4a0033; 
+        }
+        .btn:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px #4a0033;
+        }
+
+        .cat-gif {
+            width: 160px;
+            height: 160px;
+            border-radius: 25px; /* Slightly rounded squares */
+            border: 4px solid #ff1493; /* Deep Pink border */
+            margin: 15px 0;
+            object-fit: cover;
+            box-shadow: 8px 8px 0px #4a0033;
+            transform: rotate(-5deg); /* Playful tilt */
+        }
+
+        .hidden { display: none; }
+
+        .chatter {
+            position: absolute;
+            pointer-events: none;
+            z-index: 50;
+            font-size: 1.8rem;
+            animation: floatAndFade 5s linear forwards;
+            white-space: nowrap;
+            opacity: 0;
+            color: #ff00ff; /* Bright color for chat text */
+            text-shadow: 1px 1px 0px black;
+        }
+        @keyframes floatAndFade {
+            0% { transform: translateY(0) scale(0.5); opacity: 0; }
+            10% { transform: translateY(-20px) scale(1.2); opacity: 1; }
+            80% { opacity: 1; }
+            100% { transform: translateY(-100px) scale(1.5); opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <div id="step1">
+        <h1>🚨 HEY WIFE, MWAH BABU 😈🚨</h1>
+        <p>TUM MERI VALENTINE BANOGE? 💖💍💋</p>
+        <div id="timer">5</div>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExM29wZzR6ZzR0bm80bm80bm80bm80bm80bm80bm80bm80JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1z/2FazxG592g7X7zQ4w/giphy.gif" class="cat-gif">
+        <button class="btn btn-yes" onclick="showStep(4, 'YES WIFE 💖😈')">1. YES WIFE ✨</button>
+        <button id="runaway" class="btn btn-no" onmouseover="run(this)" onclick="showStep(2, 'NAHHH 💀')">2. NO 💅</button>
+    </div>
+
+    <div id="step2" class="hidden">
+        <h1>KYA RE WIFE?! 😤👊</h1>
+        <p>Ato time Lage? 🙄 Ek aur chance de rahi hu... 😼💅</p>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHB2dm5yZ3R6ZzR0bm80bm80bm80bm80bm80bm80bm80bm80JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/CqxY2Tf66838d7Q1d/giphy.gif" class="cat-gif" style="transform: rotate(5deg);">
+        <button class="btn btn-no" onclick="alert('ARE WIFE! 😈 NO OTHER CHOICE! YOU ARE MINE. 😼')">1. Marry Momota 👰</button>
+        <button class="btn btn-yes" onclick="showStep(3, 'CHANCE MILA ✅')">2. Second chance 🔄</button>
+    </div>
+
+    <div id="step3" class="hidden">
+        <h1>CHUP CHAP YES BOL WIFE 😡😈</h1>
+        <p>You already know the answer... 😏💋</p>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXA4dm5yZ3R6ZzR0bm80bm80bm80bm80bm80bm80bm80bm80JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/MDJ9IbxxvDUQM/giphy.gif" class="cat-gif" style="transform: rotate(-5deg);">
+        <button class="btn btn-yes" onclick="showStep(4, 'FINALLY! 😍')">1. YES BABU 😍</button>
+        <button class="btn btn-yes" onclick="showStep(4, 'MY WIFE SAID YES! 🎉')">2. YES BABU 😍</button>
+    </div>
+
+    <div id="step4" class="hidden">
+        <h1>YIPPEE! MWAH MWAH WIFE 💋❤️‍🔥</h1>
+        <p>AJKE KI KARBA ANDER PERSONAL DATE E? 😏🍼😈</p>
+        <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGoydm5yZ3R6ZzR0bm80bm80bm80bm80bm80bm80bm80bm80JmVwPXYxX2ludGVybmFsX2dpZl9ieV9pZCZjdD1n/mGTLrV053V1Jm/giphy.gif" class="cat-gif">
+        <button class="btn btn-yes" onclick="showStep(5, 'ROBLOX DATE 🎮')">1. ROBLOX 🎮</button>
+        <button class="btn btn-yes" onclick="showStep(5, 'VID CALL 😉')">2. VID CALL 📱</button>
+        <button class="btn btn-yes" onclick="showStep(5, 'VERY SUS 😏')">3. SUS 😏🫦</button>
+        <button class="btn btn-yes" onclick="showStep(5, 'BERHOBA? 🏃‍♀️')">4. BEKAL E BERHOBA? 🏃‍♀️</button>
+    </div>
+
+    <div id="step5" class="hidden">
+        <h1>KOKHON TIME BABU? ⏰😈</h1>
+        <input type="text" placeholder="Time bolo... 💋">
+        <button class="btn btn-yes" onclick="showStep(6, 'OKAY WIFE! 🔥')">DONE ✅</button>
+    </div>
+
+    <div id="step6" class="hidden">
+        <h1>OMG YAY WIFE!! 🎉✨</h1>
+        <p>ETA AMADER WEDDING COVER BABU: 👰👰‍♀️</p>
+        <a href="https://photos.app.goo.gl/Pp6H7q3e73pf6r2z9" target="_blank" style="text-decoration: none;">
+            <button class="btn btn-yes" style="background: gold; color: #4a0033;">CLICK FOR MAGIC 📸💍</button>
+        </a>
+    </div>
+</div>
+
+<script>
+    let timeLeft = 5;
+    let timerActive = true;
+
+    setInterval(() => {
+        if(timerActive) {
+            timeLeft--;
+            document.getElementById('timer').innerText = (timeLeft < 0) ? 0 : timeLeft;
+            if (timeLeft <= 0) showStep(2, 'TIMEOUT! ⏰');
+        }
+    }, 1000);
+
+    function showStep(n, chatterText = '') {
+        timerActive = false;
+        document.querySelectorAll('.card > div').forEach(d => d.classList.add('hidden'));
+        document.getElementById('step'+n).classList.remove('hidden');
+        if (chatterText) spawnChatter(chatterText);
+    }
+
+    function run(b) {
+        if (window.innerWidth > 500) {
+            b.style.position = 'absolute';
+            b.style.top = Math.random() * 80 + '%';
+            b.style.left = Math.random() * 80 + '%';
+        }
+    }
+
+    function spawnChatter(text) {
+        const chatter = document.createElement('div');
+        chatter.className = 'chatter';
+        chatter.innerText = text;
+        const cardRect = document.querySelector('.card').getBoundingClientRect();
+        chatter.style.left = (cardRect.left + cardRect.width / 2 + (Math.random() * 100 - 50)) + 'px';
+        chatter.style.top = (cardRect.top + cardRect.height / 2 + (Math.random() * 50 - 25)) + 'px';
+        document.body.appendChild(chatter);
+        setTimeout(() => chatter.remove(), 5000);
+    }
+
+    function spawnFloatingDecor() {
+        const icons = ['😈','💋','💖','✨','💅','🍼','🎀','💍'];
+        const i = document.createElement('div');
+        i.className = 'chatter'; // Reusing chatter class for floating
+        i.innerText = icons[Math.floor(Math.random()*icons.length)];
+        i.style.left = Math.random() * 100 + 'vw';
+        i.style.top = '105vh';
+        i.style.animation = `floatAndFade ${Math.random()*4+3}s linear infinite`; // Vary speed
+        document.body.appendChild(i);
+        setTimeout(() => i.remove(), 7000);
+    }
+    setInterval(spawnFloatingDecor, 400); // More frequent floating decor
+</script>
+</body>
+</html>
